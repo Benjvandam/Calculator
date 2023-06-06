@@ -11,10 +11,10 @@ div{
 }
 
 .main{
-    margin: 50px;
+    margin: 30px;
     flex-direction: column;
-    height:500px;
-    width: 400px;
+    height:530px;
+    width: 420px;
     border: solid #1c0402;
     background-color:rgb(34, 225, 225);
     align-items: center;
@@ -23,20 +23,33 @@ div{
 
 }
 
-.screen{
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: end;
+.screen-grid{
+    flex-direction: column;
     width: 380px;
     height: 80px;
     background-color: whitesmoke;
     margin-top:20px;
-    margin-bottom: 10px;
-    font-size: 50px;
+    margin-bottom: 10px; 
+}
+
+.screen{
+
+    flex-direction:row;
+    width: 380px;
+    height: 40px;
+    justify-content: flex-end;
+    align-items: end;
+    font-size: 30px;
     font-weight: bold;
     font-family: 'Oswald' sans-serif;
 
 }
+
+.history-screen{
+    justify-content: start; 
+    color: grey;   
+}
+
 
 .buttons-grid{
     flex-direction: row;
@@ -58,4 +71,8 @@ button{
 
 .space{
     width: 140px;
+}
+
+.operator{
+    background-color: rgb(222, 128, 128);
 }
